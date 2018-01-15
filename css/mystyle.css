@@ -1,0 +1,92 @@
+html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .wrapper {
+            min-height: 100%;
+        }
+
+#one{
+  background-image: url("../images/cover.jpg");
+  margin: 0;
+background-size: 100vw 100vh;
+/* background-size: 100%; */
+background-repeat: no-repeat;
+/* line-height: inherit; */
+}
+
+#two{
+  /* background-color: blue; */
+}
+.container-fluid {
+      padding: 60px 50px;
+  }
+
+
+
+#quoteBorder{
+  background-image: url("../images/quote.png");
+  background-repeat: no-repeat;
+  background-size:100%;
+
+}
+
+#three{
+  /* background-color: green; */
+}
+
+#titleText{
+  font-size: 250%;
+}
+
+#subtitleText{
+  text-align: justify;
+  font-size: 120%;
+}
+
+.titleBox{
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+  color: #ffff;
+}
+
+nav li a{
+  color: black;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    /* width: 100%; */
+    /* height: 100%; */
+    margin-bottom: 10px;
+}
+
+
+.carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+  .carousel-item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .carousel-item span {
+      font-style: normal;
+  }
